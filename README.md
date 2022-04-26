@@ -4,7 +4,7 @@ Este maquetado esta relacionado con el maquetado Bootstrap, solo que en este uti
 > :memo: **Nota:** Este tipo de archivos se recomienda abrirlos con **Googlo Chrome** para que sea de su mayor agrado...
 
 #### ¿En qué consiste el proyecto?
-Realice el diseño de diferentes maquetas, utilizando varios tipos de tamaño de pantalla, cajas contenedoras y a demás se agrega el combio de color en los diferentes tamaños.
+Realización el diseño de diferentes maquetas, utilizando varios tipos de tamaño de pantalla, cajas contenedoras y a demás se agrega el combio de color en los diferentes tamaños.
 
 
 ##### Maqueta N°0
