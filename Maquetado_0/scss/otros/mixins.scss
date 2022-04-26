@@ -1,0 +1,10 @@
+@mixin caja{
+    height: 150px;
+}
+
+@mixin título {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: $color-titulo;
+}

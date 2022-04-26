@@ -1,0 +1,10 @@
+@mixin caja{
+    height: 200px;
+}
+
+@mixin título {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-weight bold;
+    font-size: 30px;
+    color: $color-titulo;
+}

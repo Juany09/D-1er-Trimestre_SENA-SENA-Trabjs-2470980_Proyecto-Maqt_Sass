@@ -1,0 +1,68 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+
+// Then add additional custom code here
+
+@import "otros/variable";
+@import "otros/mixins.scss";
+
+* { margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    font-family: arial; 
+}
+/*Contenido del sitio web*/
+#container{
+    background-color: $color-container;
+}
+/*Border, artibuto para darle un borde a la columna.*/
+/* Menú del sitio web*/
+.nav li a{
+    border: solid 2px;
+    text-decoration: none;
+    color: $color-bord;
+    display: block;
+    padding: 0;
+    width: 400px;
+    margin: 0;
+}
+.nav li{
+    display:inline-block
+}
+
+/*Imagen N° 1*/
+#imagen0{
+    background-color: $color-imagen0;
+    border: 2px solid $color-bord;
+}
+/*Imagen N° 2*/
+#imagen1{
+    background-color: $color-imagen1;
+    border: 2px solid $color-bord;
+}
+/*Imagen N° 3*/
+#imagen2{
+    background-color: $color-imagen2;
+    border: 2px solid $color-bord;
+}
+/*Imagen N° 4*/
+#imagen3{
+    background-color: $color-imagen3;
+    border: 2px solid $color-bord;
+}
+/*Imagen N° 5*/
+#imagen4{
+    background-color: $color-imagen4;
+    border: 2px solid $color-bord;
+}
+/*Imagen N° 6*/
+#imagen5{
+    background-color: $color-imagen5;
+    border: 2px solid $color-bord;   
+}

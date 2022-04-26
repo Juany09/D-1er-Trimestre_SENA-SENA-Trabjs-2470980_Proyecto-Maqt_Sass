@@ -1,0 +1,54 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+
+// Then add additional custom code here
+
+@import "otros/variable";
+@import "otros/mixins.scss";
+
+* { margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    font-family: arial; 
+}
+
+#container{
+    background-color: $color-container;
+}
+/*Border, artibuto para darle un borde a la columna.*/
+#header{
+    background-color: $color-heard;
+    border: 2px solid $color-bord;
+}
+
+#article1{
+    background-color: $color-article1;
+    border: 2px solid $color-bord;
+}
+
+#article2{
+    background-color: $color-article2;
+    border: 2px solid $color-bord;
+}
+
+#article3{
+    background-color: $color-article3;
+    border: 2px solid $color-bord;   
+}
+
+
+#aside_left{
+    background-color: $color-aside_left;
+    border: 2px solid $color-bord;
+}
+
+#foorter1{
+    background-color: $color-foorter1;
+    border: 2px solid $color-bord;
+}
